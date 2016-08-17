@@ -103,7 +103,9 @@ WRITE YOUR CUSTOM SCRIPTS BELOW
 ======================================*/
 
 
+//TODO $.getJSON('https://api.github.com/users/strawsnake/gists',function(data){console.log(data)})
 
+//TODO https://api.github.com/users/strawsnake
 
 
 
