@@ -7,14 +7,13 @@
   },
   "name": "blessed-contrib",
   "version": "4.8.5",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaronn/blessed-contrib.git"
+    "url": "git+https://github.com/yaronn/blessed-contrib.git"
   },
   "author": "Yaron Naveh (yaronn01@gmail.com)",
   "license": "MIT",
@@ -34,5 +33,10 @@
     "sparkline": "^0.1.1",
     "strip-ansi": "^3.0.0",
     "term-canvas": "0.0.5"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/yaronn/blessed-contrib/issues"
+  },
+  "homepage": "https://github.com/yaronn/blessed-contrib#readme",
+  "description": ""
 }

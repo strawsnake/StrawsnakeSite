@@ -16,7 +16,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
-node_modules/
+
 # =========================
 # Operating System Files
 # =========================
@@ -45,3 +45,6 @@ node_modules/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+node*
