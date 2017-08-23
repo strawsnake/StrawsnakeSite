@@ -107,7 +107,24 @@ $(document).ready(function() {
 
     //TODO https://api.github.com/users/strawsnake
 
+    $.ajax({
+        url: "https://api.github.com/users/strawsnake/gists",
+        method: "GET",
+        headers: { "Accept": "application/json; odata=verbose" },
+        success: function(data) {
+            $('#gist .row-gist').empty();
+            for (i = 0; i < data.length; i++) {
+                var gisthtml = '<div class="col-xs-12 col-sm-3 col-md-3 col-lg-3"><h2>Gist</h2><p><a href="' + data[i].html_url + '">' + data[i].description + '</a></p></div>';
 
+                $('#gist .row-gist').append(gisthtml);
+
+            }
+
+        },
+        error: function(data) {
+            console.log("Error: " + data);
+        }
+    });
 
 
 });
